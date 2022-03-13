@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class Splash extends AppCompatActivity
 {
@@ -20,6 +21,12 @@ public class Splash extends AppCompatActivity
         ImageView iv = (ImageView)findViewById(R.id.imageView);
         Animation fade = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade);
         iv.startAnimation(fade);
+
+        TextView tv = (TextView)findViewById(R.id.textView);
+//        Animation zoom = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.zoomin);
+//        tv.startAnimation(zoom);
+        Animation blink = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.blink);
+        tv.startAnimation(blink);
 
 //        Thread obj = new Thread()
 //        {
@@ -44,7 +51,7 @@ public class Splash extends AppCompatActivity
             @Override
             public void run()
             {
-                Intent i = new Intent(getApplicationContext(), Login2.class);
+                Intent i = new Intent(getApplicationContext(), Grid.class);
                 startActivity(i);
                 finish();
             }

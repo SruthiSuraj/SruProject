@@ -3,10 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/drawable/cornerround.xml" value="0.23378378378378378" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/activity_main.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/activity_registration.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/calculator.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/customlist.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/fruit_list.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/grid.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/grid_adapter.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/grid_item.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/list.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/login2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/progress_bar.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/registration.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/seek_bar.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/splash.xml" value="0.21829710144927536" />
       </map>
     </option>
