@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BluetoothActivity">
+
+
+    <TextView
+        android:id="@+id/txtstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/btImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="75dp"
+        app:srcCompat="@drawable/bluetoothoff" />
+
+    <Button
+        android:id="@+id/btnOn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1372D6"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:text="ON" />
+
+    <Button
+        android:id="@+id/btnOff"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1372D6"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:text="OFF" />
+
+    <Button
+        android:id="@+id/btnDiscovery"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#1372D6"
+        android:text="discoverable" />
+
+    <Button
+        android:id="@+id/btnVisible"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#1372D6"
+        android:text="get paired devices" />
+
+    <TextView
+        android:id="@+id/txtPaired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:text="TextView" />
+
+</RelativeLayout>

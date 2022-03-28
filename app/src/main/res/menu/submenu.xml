@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="star"
+        android:id="@+id/star"
+        android:icon="@drawable/india"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Item1"
+        android:id="@+id/item1"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/subitem1"
+                android:title="Sub Item 1"/>
+        </menu>
+    </item>
+
+    <item android:title="Item2"
+        android:id="@+id/item2"/>
+</menu>

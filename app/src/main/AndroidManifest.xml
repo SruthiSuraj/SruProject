@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sr.myappjan">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
         android:allowBackup="true"
@@ -10,19 +25,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppJan">
         <activity
-            android:name=".ProgressBarActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".SeekBarActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".Grid"
-            android:exported="true" />
-
-        <activity
-            android:name=".Calculator"
+            android:name=".CameraActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +33,99 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".BluetoothActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SMSActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PhoneCallEx"
+            android:exported="true" />
+        <activity
+            android:name=".VideoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MediaActivity"
+            android:exported="true" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
 
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PopupMenuEx"
+            android:exported="true" />
+        <activity
+            android:name=".SubMenuEx"
+            android:exported="true" />
+        <activity
+            android:name=".ContextMenuEx"
+            android:exported="true" />
+        <activity
+            android:name=".OptionMenuEx"
+            android:exported="true" />
+        <activity
+            android:name=".NumberPickerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CalenderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DatePickerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TimePickerWithEditText"
+            android:exported="true" />
+        <activity
+            android:name=".TimePickerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SnackBarrActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SwitchToggleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomToast"
+            android:exported="true" />
+        <activity
+            android:name=".CustomAlert"
+            android:exported="true" />
+        <activity
+            android:name=".VerticalScrollActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WebViewScroll"
+            android:exported="true" />
+        <activity
+            android:name=".AutoCompleteTvActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProgressBarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeekBarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Grid"
+            android:exported="true" />
+        <activity
+            android:name=".Calculator"
+            android:exported="true" />
         <activity
             android:name=".FruitList"
             android:exported="true" />

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CustomAlert">
+
+    <Button
+        android:id="@+id/btnSimpleAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="simpleAlert"
+        android:text="Simple alert dialog" />
+
+    <Button
+        android:id="@+id/btnAlertWithItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="withItems"
+        android:text="with items" />
+
+    <Button
+        android:id="@+id/btnAlertWithChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="withMultiChoiceItems"
+        android:text="with multi choice item" />
+
+    <Button
+        android:id="@+id/btnAlertWithEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="withEditText"
+        android:text="with edit text" />
+
+    <Button
+        android:id="@+id/btnAlertWithImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="withImageView"
+        android:text="with image view" />
+
+    <Button
+        android:id="@+id/btnAlertWithSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="withSeekBar"
+        android:text="with seek bar" />
+
+    <Button
+        android:id="@+id/btnAlertWithRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="withRatingBar"
+        android:text="with rating bar" />
+</LinearLayout>
