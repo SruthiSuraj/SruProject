@@ -10,6 +10,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.sr.myappjan.fragment.FragmentExample;
+
 public class Splash extends AppCompatActivity
 {
     @Override
@@ -51,7 +53,7 @@ public class Splash extends AppCompatActivity
             @Override
             public void run()
             {
-                Intent i = new Intent(getApplicationContext(), Grid.class);
+                Intent i = new Intent(getApplicationContext(), FragmentExample.class);
                 startActivity(i);
                 finish();
             }

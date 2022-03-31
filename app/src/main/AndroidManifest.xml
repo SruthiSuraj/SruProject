@@ -25,7 +25,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppJan">
         <activity
-            android:name=".CameraActivity"
+            android:name=".notificationss.BroadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".material.MainActivityRecycler"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,6 +36,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".material.SecondActivityRecycler" />
+        <activity
+            android:name=".ScreenSizeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityLifecycle"
+            android:exported="true" />
+        <activity
+            android:name=".CameraActivity"
+            android:exported="true" />
         <activity
             android:name=".BluetoothActivity"
             android:exported="true" />
@@ -60,6 +73,9 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <activity
+            android:name=".fragment.FragmentExample"
+            android:exported="true" />
         <activity
             android:name=".MapsActivity"
             android:exported="true" />

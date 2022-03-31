@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/drawable/cornerround.xml" value="0.23378378378378378" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout-large/screen_size_acivity.xml" value="0.17725409836065573" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout-night/screen_size_acivity.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout-night/screen_size_activity.xml" value="0.21936936936936938" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/activity_alert_rating.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/activity_lifecycle.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/activity_main.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/activity_main_recycle.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/activity_maps.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/activity_registration.xml" value="0.16052631578947368" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/activity_vertical_scroll.xml" value="0.20765765765765765" />
@@ -15,6 +20,7 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/auto_complete_tv.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/auto_complete_tv_activity.xml" value="0.15307971014492755" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/bluetooth_activity.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/broad_activity.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/calculator.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/calender_activity.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/camera_activity.xml" value="0.21981981981981982" />
@@ -24,9 +30,12 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/custom_toast_design.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/customlist.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/date_picker_activity.xml" value="0.20765765765765765" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/fragment_about.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/fragment_activity.xml" value="0.20765765765765765" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/fragment_contact.xml" value="0.1743659420289855" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/fragment_example.xml" value="0.20765765765765765" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/fragment_example2.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/fragment_home.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/fruit_list.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/grid.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/grid_adapter.xml" value="0.21981981981981982" />
@@ -42,6 +51,9 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/popup_menu_ex.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/progress_bar.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/registration.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/rowlayoutrecycler.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/screen_size_activity.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/second_activity_recycler.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/seek_bar.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/sms_activity.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyAppJan/app/src/main/res/layout/snack_bar_activity.xml" value="0.21981981981981982" />

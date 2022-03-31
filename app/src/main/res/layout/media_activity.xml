@@ -37,57 +37,11 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="150dp"
         app:srcCompat="@drawable/music" />
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="40dp"
-        android:layout_marginLeft="20dp">
-
-    <ImageButton
-        android:id="@+id/btnBackward"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="45dp"
-        android:layout_marginBottom="45dp"
-        android:backgroundTint="@color/black"
-        app:srcCompat="@android:drawable/ic_media_rew" />
-
-    <ImageButton
-        android:id="@+id/btnPlay"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="45dp"
-        android:backgroundTint="#18D64F"
-        tools:srcCompat="@android:drawable/ic_media_play" />
-
-    <ImageButton
-        android:id="@+id/btnPause"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="45dp"
-        android:backgroundTint="#EC0A0A"
-        tools:srcCompat="@android:drawable/ic_media_pause" />
-
-        <ImageButton
-            android:id="@+id/btnForward"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginLeft="20dp"
-            android:layout_marginBottom="45dp"
-            tools:ignore="ImageContrastCheck"
-            android:backgroundTint="@color/black"
-            tools:srcCompat="@android:drawable/ic_media_ff" />
-
-    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
         android:id="@+id/txtStartTime"
@@ -116,6 +70,66 @@
         android:layout_marginRight="10dp"
         android:layout_alignParentRight="true"
         android:text="00:00" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="23dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtStartTime">
+
+        <ImageButton
+            android:id="@+id/btnBackward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="45dp"
+            android:backgroundTint="@color/black"
+            app:srcCompat="@android:drawable/ic_media_rew"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="45dp"
+            android:backgroundTint="#18D64F"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:srcCompat="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/btnPause"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="45dp"
+            android:backgroundTint="#EC0A0A"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:srcCompat="@android:drawable/ic_media_pause" />
+
+        <ImageButton
+            android:id="@+id/btnForward"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="45dp"
+            android:backgroundTint="@color/black"
+            tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck"
+            tools:srcCompat="@android:drawable/ic_media_ff" />
+
+    </LinearLayout>
 
 
 </RelativeLayout>
